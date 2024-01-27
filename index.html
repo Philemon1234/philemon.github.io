@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <div id="particles-js">
+
+        </div>
+        <div class="container">
+            <nav>
+                <a href="# "><img src="./images/logo.png" class="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ntivuguruzwa </span> <br> Philemon from Uganda</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <main class="main">
+        <!-- ---------------About-section------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="./images/Philemon.png" alt="">
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>
+                            I'm a versatile developer with expertise in web development, graphics design, and teaching. Proficient in HTML, CSS, and graphic design, I've crafted user-friendly websites and transformed intricate Figma designs into functional code. As an educator, I've shared HTML and CSS expertise for two years. Eager to contribute and adapt, I look forward to enhancing your projects with my unique skill set.
+                        </p>
+
+                        <!-- -------------tab-titles----------------- -->
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                        </div>
+
+                        <!-- -------------Skills-tab-contents----------------- -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span class="tab-titles3">UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span class="tab-titles3">Web Development</span><br>Web App Development</li>
+                                <li><span class="tab-titles3">Graphics Design</span><br>Creating visuals and manipulating photos through design.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- -------------Experience-tab-contents----------------- -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span class="tab-titles3">2022 - Current</span><br>Training Coding at YUFAT
+                                    Organisation</li>
+                                <li><span class="tab-titles3">2021 - 2022</span><br>Free Code Camp Certification</li>
+                                <!-- <li><span class="tab-titles3">2016 - 2019</span><br>Internship at ekart eCommerce</li> -->
+                            </ul>
+                        </div>
+
+                        <!-- -------------Education-tab-contents----------------- -->
+                        <!-- <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span class="tab-titles3">2016</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span class="tab-titles3">2016</span><br>MBA from MIT Bangalore.</li>
+                                <li><span class="tab-titles3">2014</span><br>BBA from ISM Bangalore.</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------Services-section------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+
+                    <!-- ----------------services-item-1----------------------- -->
+                    <div>
+                        <i class="fa fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>
+                            I create engaging websites that blend design and functionality seamlessly. With expertise in HTML and CSS, I transform concepts into responsive, user-friendly web pages, ensuring a captivating online presence for your brand.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+
+                    <!-- ----------------services-item-2----------------------- -->
+                    <div>
+                        <i class="fa fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>
+                            I specialize in crafting intuitive and visually appealing user interfaces (UI) that enhance user experiences (UX). With a focus on user-centered design, I create seamless interactions that delight users and elevate digital products to the next level.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+
+                    <!-- ----------------services-item-3----------------------- -->
+                    <div>
+                        <i class="fa fa-object-group"></i>
+                        <h2>Graphics Design</h2>
+                        <p>
+                            I specialize in using design to make images look amazing. I can change and improve photos, making them stand out and look fantastic. This involves carefully working on images to create impressive and artistic results.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------Portfolio-section------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+
+                <div class="work-list">
+                    <!-- ---------work-1--------------------- -->
+                    <div class="work">
+                        <img src="./images/work00002.png" alt="">
+
+                        <div class="layer">
+                            <h3>To-Do App</h3>
+                            <p>
+                                Streamline tasks, set deadlines, and stay organized with our user-friendly JavaScript to-do app. Accomplish more efficiently.
+                            </p>
+                            <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- ---------work-2--------------------- -->
+                    <div class="work">
+                        <img src="./images/work001.png" alt="">
+
+                        <div class="layer">
+                            <h3>Movie App</h3>
+                            <p>
+                                Explore and enjoy a dynamic movie experience with our 
+                                JavaScript-powered movie app. Discover and engage seamlessly.
+                            </p>
+                            <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- ---------work-3--------------------- -->
+                    <div class="work">
+                        <img src="./images/work003.png" alt="">
+
+                        <div class="layer">
+                            <h3>Theme Clock</h3>
+                            <p>
+                                Experience time differently with our theme clock powered by JavaScript. Transform your space with visual enchantment.
+                            </p>
+                            <a href="#"><i class="fa fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="Popup.html" id="btn-popup" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ---------------Contact-section------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title sub-title2">Contact Me</h1>
+                        <p><i class="fa fa-paper-plane"></i> ntivuguruzwaphilemon0@gmail.com</p>
+                        <p><i class="fa fa-phone-square-alt"></i> 0707434218</p>
+
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100076455902563" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/NtivuguruzwaPh1" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/casperphilemon0/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ntivuguruzwa-philemon-b5b22322b/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+
+                        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter Your name" required>
+                            <input type="text" name="Email" placeholder="Enter Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright <span><i class="fa fa-copyright"></i></span> Philemon. Made by <span><i
+                            class="fa fa-heart heart-icon"></i></span> Ntivuguruzwa Philemon</p>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <!-- --------------------------Javascript-Section-For-About-Tabs----------------------- -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        <!-- --------------------------Javascript-Section-For-About-Tabs----------------------- -->
+        var sidemenu = document.getElementById("sidemenu");
+        // let btnPopup = document.getElementById("btn-popup");
+        // let popupContainer = document.querySelector(".popup-container");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-400px";
+        }
+
+        // btnPopup.addEventListener("click", function() {
+        //     popupContainer.style.display = "block";
+        // })
+
+    </script>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
